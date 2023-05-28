@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="css/form.css">
+    
+    <style>
+        .form {
+            text-align: center;
+        }
+
+        .translucent-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 2px solid #7e7265;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .heading {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: black; /* Set the heading color to black */
+        }
+
+        .instructions {
+            font-size: 18px;
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px dashed #393634;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 5px;
+            color: black; /* Set the text color to black */
+            text-align: left; /* Align the text to the left */
+        }
+
+        .instructions h3 {
+            margin-bottom: 10px;
+        }
+
+        .instructions p {
+            margin: 5px 0;
+        }
+
+        .back-btn {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+
+    <div class="form">
+        <div class="translucent-box">
+            <h2 class="heading">Instructions</h2>
+            <div class="instructions">
+                <h3>Follow the below steps to register:</h3>
+                <p>Step 1: Enter your name</p>
+                <p>Step 2: Provide your email address</p>
+                <p>Step 3: Select your department</p>
+                <p>Step 4: Click the Register button</p>
+            </div>
+            <button class="back-btn" onclick="redirectToRegistration()">Back to Registration</button>
+        </div>
+    </div>
+
+    <script>
+        function redirectToRegistration() {
+            window.location.href = "register.html";
+        }
+    </script>
+    
+</body>
+</html>

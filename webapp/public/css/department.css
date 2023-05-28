@@ -1,0 +1,112 @@
+/* Example Hero Section CSS */
+
+/* Background color and padding */
+.bg-blue-900 {
+    background-color: #1a202c;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  /* Container width */
+  .container {
+    max-width: 960px;
+  }
+  
+  /* Flex layout for responsive design */
+  .flex {
+    display: flex;
+  }
+  
+  /* Column layout for medium screens and above */
+  @media (min-width: 768px) {
+    .md:flex-row {
+      flex-direction: row;
+    }
+  
+    .md:w-1/2 {
+      width: 50%;
+    }
+  }
+  
+  /* White background for department information */
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  /* Rounded corners and shadow for department information */
+  .rounded-lg {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Padding and margin for department information */
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  /* Department headings */
+  .text-blue-900 {
+    color: #2a4365;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  /* Department descriptions */
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .text-gray-800 {
+    color: #4a5568;
+  }
+  
+  .text-gray-700 {
+    color: #4a5568;
+  }
+  
+  /* Image styling */
+  .w-full {
+    width: 100%;
+  }
+  
+  .rounded-t-lg {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  /* Shadow for images */
+  .shadow-lg {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Margin and gap for image grid */
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .gap-8 {
+    gap: 2rem;
+  }
+  

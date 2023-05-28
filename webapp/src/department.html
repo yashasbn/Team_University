@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="..//dist/output.css" rel="stylesheet">
+
+
+    <style>
+        /* Add your custom styles here */
+        body {
+            background-color: #1e88e5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-dark-blue {
+            background-color: #e1f5fe;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .department-card {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .department-card h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #1a237e;
+        }
+
+        .department-card p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .department-card img {
+            max-width: 30%;
+            height: auto;
+            margin-right: 20px;
+        }
+
+
+        .footer {
+      background-color: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+        }
+
+    .footer p {
+      margin: 0;
+    }
+
+    .footer-links {
+      margin-top: 20px;
+    }
+
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+
+
+        
+    </style>
+</head>
+
+
+
+<body>
+    <header class="bg-blue-900">
+      <div class="container mx-auto py-4">
+        <nav class="flex items-center justify-between">
+          <div>
+            <a href="http://127.0.0.1:5500/src/index.html" class="text-white text-xl font-bold">The Team University</a>
+          </div>
+          <div class="hidden md:flex md:items-center">
+            <a href="http://127.0.0.1:5500/src/index.html" class="text-white mx-4">Home</a>
+            <a href="http://127.0.0.1:5500/src/department.html" class="text-white mx-4">Departments</a>
+            <a href="http://127.0.0.1:5500/src/rollout.html" class="text-white mx-4">Circular Roll-outs</a>
+            <a href="http://127.0.0.1:5500/public/register.html" class="text-white mx-4">Course Registration</a>
+            <a href="http://127.0.0.1:5500/src/president.html" class="text-white mx-4">Faculties</a>    
+          </div>
+          <div class="md:hidden">
+            <button class="text-white focus:outline-none">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+
+
+
+
+
+<body>
+    <section class="bg-light-blue py-20">
+        <div class="container mx-auto">
+            <div class="section-title">Explore Our Departments</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="department-card">
+                    <img src="https://images.unsplash.com/photo-1585166059782-f28143545183?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVjaGFuaWNhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Mechanical Engineering">
+                    <div>
+                        <h2>Department of Mechanical Engineering</h2>
+                        <p>Pioneering Innovation</p>
+                        <p>Immerse yourself in the realm of machines, materials, and mechanics. Unleash your creativity and develop solutions that shape the future of transportation, robotics, energy systems, and beyond. Our faculty of renowned experts will guide you in harnessing the power of engineering to push boundaries and engineer the extraordinary.</p>
+                    </div>
+                </div>
+                <div class="department-card">
+                    <img src="https://wallpapercave.com/dwp2x/wp4341673.jpg" alt="Electrical and Electronics Engineering">
+                    <div>
+                        <h2>Department of Electrical and Electronics Engineering</h2>
+                        <p>Powering Progress</p>
+                        <p>Embrace the electrifying world of circuits, power systems, and electronics. From renewable energy to cutting-edge communication technologies, we empower our students to revolutionize the way we live, work, and connect. Explore the endless possibilities of electrical engineering and illuminate a brighter tomorrow.</p>
+                    </div>
+                </div>
+                <div class="department-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1678564741870-d68a69925537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbXB1dGVycyUyMHNjaWVuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="Computer Science and Engineering">
+                    <div>
+                        <h2>Department of Computer Science and Engineering</h2>
+                        <p>Transforming the Digital Landscape</p>
+                        <p>Step into the virtual realm of algorithms, artificial intelligence, and software engineering. Prepare to reshape the future through groundbreaking innovations in computer hardware, software development, data science, and cybersecurity. Unleash your potential in our state-of-the-art labs and collaborate with visionary minds to forge a digital revolution.</p>
+                    </div>
+                </div>
+                <div class="department-card">
+                    <img src="https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2l2aWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="Civil and Environmental Engineering">
+                    <div>
+                        <h2>Department of Civil and Environmental Engineering</h2>
+                        <p>Building Sustainable Futures</p>
+                        <p>Construct a world that thrives on sustainable infrastructure, environmental preservation, and urban planning. Dive into the world of structural design, transportation systems, and water resource management. Gain the skills to create sustainable solutions that minimize environmental impact and ensure a better tomorrow for all.</p>
+                    </div>
+                </div>
+                <div class="department-card">
+                    <img src="https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlbWljYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="Chemical Engineering">
+                    <div>
+                        <h2>Department of Chemical Engineering</h2>
+                        <p>Mastering the Science of Transformation</p>
+                        <p>Delve into the realm of molecular design, chemical processes, and biotechnology. Become an agent of change by developing sustainable materials, advancing pharmaceutical research, and tackling global challenges like climate change. Join us as we unlock the potential of chemistry to reshape industries and improve lives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2023 The Team. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="http://127.0.0.1:5500/src/privacypolicy.html">Privacy Policy</a>
+        <a href="http://127.0.0.1:5500/src/termsofservice.html">Terms of Service</a>
+        <a href="http://127.0.0.1:5500/public/contactus.html?name=dvhbs&email=sjfn%40hsdb&message=jafncajc">Contact Us</a>
+      </div>
+    </footer>
+
+</div>
+
+
+
+</body>
+</html>

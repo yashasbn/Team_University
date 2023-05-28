@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="css/form.css">
+    <style>
+        .form {
+            background-color: rgba(0, 0, 0, 0.5); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .form input,
+        .form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            color: #000; 
+            background-color: transparent; 
+            border: 1px solid #000;
+        }
+        
+        .form select {
+            color: #fff; 
+            background-color: rgba(0, 0, 0, 0.5); 
+            margin-top: 20px; /* Adjust the top margin to control line spacing */
+        }
+        
+        .form select option {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .form .submit-btn {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+
+    <div class="form">
+        <h3 class="">Application</h3>
+        <input type="text" placeholder="name" autocomplete="off" name="name" required>
+        <input type="email" placeholder="email" autocomplete="off" name="email" required>
+        <select name="department" required>
+            <option value="" disabled selected>Select department</option>
+            <option value="Department 1">Aeronautical</option>
+            <option value="Department 2">Chemical</option>
+            <option value="Department 4">Computer Science</option>
+            <option value="Department 5">Civil</option>
+            <option value="Department 6">Electrical</option>
+            <option value="Department 3">Mechanical</option>
+        </select>
+        
+        <button class="submit-btn" onclick="redirectToLink()">Apply</button>
+        <a href="login.html" class="link">Facing difficulties? Click here</a>
+        <button onclick="window.location.href = 'http://127.0.0.1:5500/src/index.html'" class="bg-transparent hover:bg-blue-500 text-blue-500 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            Home
+          </button>
+          
+    </div>
+
+    <script>
+        function redirectToLink() {
+            window.location.href = "http://127.0.0.1:5500/thankyou.html";
+        }
+    </script>
+
+    <script src="js/form.js"></script>
+    
+</body>
+</html>
